@@ -1,0 +1,82 @@
+body {
+    color: #777777;
+    background-image: url("images/concrete-texture.png");
+    );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper{
+    width: 960px;
+    border: 1px solid #dddddd;
+    min-height: 100%;
+}
+
+#header{
+    width: 960px;
+    height: 75px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+.logo {
+    background: #4aaaa5;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 20px;
+    float: left;
+}
+
+.navbar{
+    float: right;
+}
+
+ul.navbar li {
+    display: inline;
+    list-style: none;
+    text-align: center;
+    padding-right: 25px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+#main-content{
+    width: 650px;
+    background-color: #ffffff;
+    clear: both;
+    margin: 20px 0px 0px 40px;
+    flex: 1 0 auto;
+    
+
+}
+
+.portrait{
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+
+#footer{
+    width: 920px;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    padding: 20px;
+    position: relative;
+    flex-shrink: 0;
+}
