@@ -82,11 +82,11 @@ ul.navbar li {
 /* Main content styles */
 
 #main-content{
-    width: 650px;
+    width: 890px;
     background-color: #ffffff;
     clear: both;
     margin: 20px 0px 20px 30px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     flex: 1 0 auto;
 }
 
@@ -103,4 +103,32 @@ ul.navbar li {
     border-top: 5px solid #4aaaa5;
     padding: 10px;
     flex-shrink: 0;
+}
+/* Form styles */
+
+input[type=text], [type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+
+  textarea {
+      width: 870px;
+      height: 200px;
+      overflow: auto;
+      margin: 20px 0px;
+      padding: 0 10px;
+      border: 1px solid #cccccc;
+  }
+
+input[type=submit] {
+    width: 120px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 4px 2px;
+
 }
