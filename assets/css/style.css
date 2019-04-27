@@ -81,9 +81,27 @@ ul.navbar li {
 }
 
 .navbar a:active {
-    color: #369;
+    color: #ffffff;
     background-color: #4aaaa5;
 }
+
+a:link{
+    color:#777777;
+}
+
+a:hover{
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:active, a:focus {
+    color: #5accc6;
+}
+
+a:visited {
+    color: #5accc6;
+}
+
 
 /* Main content styles */
 
@@ -143,7 +161,7 @@ input[type=submit] {
 
 input:hover[type=submit]{
      background-color: #ffffcc;
-     color: #4aaaa5;
+     color: #92E8E4;
      border: 1px solid #4aaaa5;
 }
 
@@ -159,5 +177,4 @@ input:hover[type=submit]{
 .gallery{
     float: left;
     margin: 10px;
-
 }
